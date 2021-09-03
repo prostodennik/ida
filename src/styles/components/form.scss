@@ -10,6 +10,7 @@
 
     @include phones {
         align-items: center;
+        margin-right: 0;
     }
 
     &__block {
