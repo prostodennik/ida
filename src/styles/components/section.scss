@@ -1,0 +1,13 @@
+.section {
+    display:  flex;
+    justify-content: space-between;
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // @include phones {
+    //     flex-direction: column;
+    // }
+}

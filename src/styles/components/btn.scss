@@ -1,0 +1,21 @@
+.btn {
+    width: rem(284px);
+    height: rem(36px);
+    border: none;
+    border-radius: 10px;
+    font-size: rem(12px);
+    color: #857777;
+    cursor: pointer;
+    transition: .5s;
+    background: #EEEEEE;
+
+    &:hover {
+        background: #3F3F3F;
+        transition: 1s;
+    }
+
+    &:focus-visible {
+        border: solid rem(1px) #3f3f3f;
+        outline: 0;
+    }
+}

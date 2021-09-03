@@ -1,0 +1,48 @@
+.product {
+    width: 32%;
+    height: 33%;
+    margin-right: rem(12px);
+    margin-bottom: rem(8px);
+    position: relative;
+    background-color: #FFFEFB;
+    border-radius: 4px;
+
+    @include tablets {
+        margin-right: 0;
+    }
+
+    @include phones {
+        width: 100%;
+    }
+
+    &:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    &:hover:before {
+        content: url(../../img/trash.png);
+        position: absolute;
+        top: rem(-15px);
+        right: rem(-10px);
+        margin: auto;
+    }
+
+    &__info {
+        padding: rem(16px) rem(16px) rem(24px) rem(16px);
+    }
+
+    &__price {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    &__name {
+        margin-bottom: rem(16px);
+        font-size: rem(20px);
+    }
+
+    &__desc {
+        margin-bottom: rem(32px);
+        text-align: left;
+    }
+}
