@@ -316,7 +316,7 @@ button {
 
 .product {
   width: 32%;
-  height: 33%;
+  min-height: 33%;
   margin-right: 0.75rem;
   margin-bottom: 0.5rem;
   position: relative;
